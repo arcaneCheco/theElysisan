@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "baseUrl": "",
+      "strict": true,
+      "allowJs": false,
+      "noImplicitAny": true,
+      "noUnusedParameters": false,
+      "strictNullChecks": true,
+      "esModuleInterop": true,
+      "allowUnreachableCode": false,
+      "lib": ["ES2021", "dom"],
+      "strictFunctionTypes": true,
+      "jsx": "react-jsx",
+      "moduleResolution": "node",
+      "paths": {
+        "@src/*": ["./src/*"],
+        "@pages/*": ["./src/pages/*"],
+        "@components/*": ["./src/components/*"]
+      }
+    }
+  }
+  
