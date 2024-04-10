@@ -17,7 +17,7 @@ export const Header = () => {
 
   const scrollHandler = () => {
     const currentScrollOffset = window.scrollY;
-    if (scrollOffset > currentScrollOffset) {
+    if (currentScrollOffset < 20 || scrollOffset > currentScrollOffset) {
       setHide(false);
     } else {
       setHide(true);
@@ -45,10 +45,12 @@ const Wrapper = styled.div<{ $hide: boolean }>`
   padding: 13px 26px;
   height: 110px;
   position: fixed;
+  box-shadow: 0px -1px 3px 0px #0000008f;
   /* top: 0;
   ${(props) => props.$hide && "top: -110px;"} */
   top: ${(props) => (props.$hide ? "-110px" : "0px")};
-  transition: top 0.5s;
+  transition: top 0.3s;
+  z-index: 2;
 `;
 
 const LogoWrapper = styled.div`

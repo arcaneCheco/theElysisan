@@ -20,3 +20,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+canvas {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
