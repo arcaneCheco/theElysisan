@@ -16,7 +16,7 @@ body {
 }
 
 #container {
-    height: 400%;
+    /* height: 400%; */
     position:relative;
     display: flex;
     flex-direction: column;

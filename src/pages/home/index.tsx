@@ -28,4 +28,5 @@ export const Home = () => {
 const Wrapper = styled.div`
   margin-top: 110px;
   z-index: 1;
+  padding-bottom: 30px;
 `;

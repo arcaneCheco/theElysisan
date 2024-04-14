@@ -4,7 +4,7 @@ import { Outlet, Link, NavLink } from "react-router-dom";
 export const Nav = () => {
   return (
     <Wrapper>
-      <NavItem to="">Home</NavItem>
+      <NavItem to="/">Home</NavItem>
       <NavItem to="/menu">Menu</NavItem>
       <NavItem to="/contact">Contact us</NavItem>
       <NavItem to="/jobs">Jobs</NavItem>
