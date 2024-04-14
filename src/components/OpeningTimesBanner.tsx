@@ -25,7 +25,7 @@ const leftToRight = keyframes`
 const OpeningText = styled.p`
   position: relative;
   color: #fff;
-  /* animation-name: ${leftToRight}; */
+  animation-name: ${leftToRight};
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;

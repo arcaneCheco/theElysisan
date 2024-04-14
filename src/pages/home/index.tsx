@@ -4,6 +4,10 @@ import { OpeningTimesBanner } from "@components/OpeningTimesBanner";
 import { IntroSection } from "./IntroSection";
 import styled from "styled-components";
 import { Gallery } from "./gallery";
+import { AboutUs } from "./AboutUs";
+import { Menu } from "./menu";
+import { FollowUs } from "./FollowUs";
+import { ContactUs } from "@components/contactUs";
 
 export const Home = () => {
   return (
@@ -13,6 +17,10 @@ export const Home = () => {
       <CurveTextBanner />
       <IntroSection />
       <Gallery />
+      <AboutUs />
+      <Menu />
+      <FollowUs />
+      <ContactUs />
     </Wrapper>
   );
 };

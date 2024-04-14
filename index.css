@@ -12,10 +12,11 @@
 body {
     background: #FFF1F5;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #container {
-    height: 200%;
+    height: 400%;
     position:relative;
     display: flex;
     flex-direction: column;
@@ -25,4 +26,8 @@ canvas {
     position: fixed;
     z-index: 2;
     top: 0;
+}
+
+.leaflet-control-attribution {
+    display: none;
 }
