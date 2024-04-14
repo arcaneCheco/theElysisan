@@ -1,6 +1,6 @@
 import { Header } from "@components/header";
-import { CurveTextBanner } from "@components/CurveTextBanner";
-import { OpeningTimesBanner } from "@components/OpeningTimesBanner";
+import { CurveTextBanner } from "./CurveTextBanner";
+import { OpeningTimesBanner } from "./OpeningTimesBanner";
 import { IntroSection } from "./IntroSection";
 import styled from "styled-components";
 import { Gallery } from "./gallery";
